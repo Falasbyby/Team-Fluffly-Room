@@ -30,16 +30,48 @@
     <type fullname="Game.Weapons.Shooting.Raycast.RaycastGun_HealingRay" preserve="all" />
     <type fullname="Game.Weapons.Shooting.Raycast.RaycastGun_Scope" preserve="all" />
     <type fullname="General.GeneralFunc" preserve="all" />
+    <type fullname="General.Interface.ButtonCountPlayer" preserve="all" />
+    <type fullname="General.Interface.ChatMessageCollector" preserve="all" />
     <type fullname="General.Interface.ChatServerHandler" preserve="all" />
+    <type fullname="General.Interface.HeroCollectorManager" preserve="all" />
+    <type fullname="General.Interface.HeroCollectorPreview" preserve="all" />
     <type fullname="General.Interface.HoverScaleEffect" preserve="all" />
+    <type fullname="General.Interface.Interface_Chat" preserve="all" />
+    <type fullname="General.Interface.Interface_ChoseCharacter" preserve="all" />
+    <type fullname="General.Interface.Interface_ChoseTeam" preserve="all" />
+    <type fullname="General.Interface.Interface_CreateMatch" preserve="all" />
+    <type fullname="General.Interface.Interface_ErrorPopup" preserve="all" />
+    <type fullname="General.Interface.Interface_InfoKill" preserve="all" />
+    <type fullname="General.Interface.Interface_KillFeed" preserve="all" />
+    <type fullname="General.Interface.Interface_Load" preserve="all" />
+    <type fullname="General.Interface.Interface_MainGame" preserve="all" />
+    <type fullname="General.Interface.Interface_MobileInput" preserve="all" />
+    <type fullname="General.Interface.Interface_PlayerHover" preserve="all" />
+    <type fullname="General.Interface.Interface_PlayerList" preserve="all" />
+    <type fullname="General.Interface.Interface_PlayerRank" preserve="all" />
+    <type fullname="General.Interface.Interface_Quit" preserve="all" />
     <type fullname="General.Interface.Interface_RoundView" preserve="all" />
+    <type fullname="General.Interface.Interface_ScopeOverlay" preserve="all" />
+    <type fullname="General.Interface.Interface_Setting" preserve="all" />
+    <type fullname="General.Interface.Interface_Start" preserve="all" />
+    <type fullname="General.Interface.Interface_Tips" preserve="all" />
+    <type fullname="General.Interface.InterfaceLobbyBrowser" preserve="all" />
+    <type fullname="General.Interface.InterfaceManager" preserve="all" />
+    <type fullname="General.Interface.KillFeedEntry" preserve="all" />
+    <type fullname="General.Interface.MatchViewInfo" preserve="all" />
     <type fullname="General.Interface.MatchViewVoteCollector" preserve="all" />
     <type fullname="General.Interface.MatchViewVoteInfo" preserve="all" />
     <type fullname="General.Interface.MatchViewVoteManager" preserve="all" />
     <type fullname="General.Interface.PlayerHoverDetector" preserve="all" />
+    <type fullname="General.Interface.PlayerInfoTabCollector" preserve="all" />
+    <type fullname="General.Interface.PlayerViewCollector" preserve="all" />
+    <type fullname="General.Interface.PlayerViewManager" preserve="all" />
+    <type fullname="General.Interface.RoomCollector" preserve="all" />
     <type fullname="General.ObjectPool" preserve="all" />
     <type fullname="General.ObjectPoolReturnParticle" preserve="all" />
     <type fullname="HeroConfig" preserve="all" />
+    <type fullname="Interface_BootLoad" preserve="all" />
+    <type fullname="Interface_MobileInput_WeaponView" preserve="all" />
     <type fullname="Interface_Mode_CaptureThePoint" preserve="all" />
     <type fullname="Interface_Mode_KingOfTheHill" preserve="all" />
     <type fullname="InterfaceConfigInfo" preserve="all" />
@@ -52,6 +84,7 @@
     <type fullname="MatchTypeInfos" preserve="all" />
     <type fullname="MeshCombiner" preserve="all" />
     <type fullname="MeshGizmoDrawer" preserve="all" />
+    <type fullname="MusicConrtoller" preserve="all" />
     <type fullname="NicknameView" preserve="all" />
     <type fullname="Online.Boot.BootstrapPlayer" preserve="all" />
     <type fullname="Online.Boot.PlayerSetup" preserve="all" />
@@ -61,10 +94,34 @@
     <type fullname="Online.Player.RagdollController" preserve="all" />
     <type fullname="OrbitalCamera" preserve="all" />
     <type fullname="PrefabGizmoDrawer" preserve="all" />
+    <type fullname="PromoCodeManager" preserve="all" />
     <type fullname="TriggerEvent" preserve="all" />
     <type fullname="WeaponGroupConfig" preserve="all" />
     <type fullname="WeaponParticleConfig" preserve="all" />
+    <type fullname="WeaponViewCollector" preserve="all" />
     <type fullname="YG.LanguageLegacy.LanguageYG" preserve="all" />
+    <type fullname="General.Interface.Interface_ChoseCharacter/CharacterInfo" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_ChoseCharacter/HeroChoose" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_ChoseCharacter/HeroChoose/ImageWeaponView" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_ChoseTeam/ButtonTeam" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_MainGame/Interface_Ammo" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_MainGame/Interface_Crosshair" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_MainGame/Interface_Health" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_MainGame/Interface_Ping" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_MainGame/Interface_TipsForMode" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_PlayerHover/PlayerInfo" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_Start/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.Interface_Tips/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.PlayerViewManager/Interface_KingOfTheHill" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.PlayerViewManager/RoundView" preserve="nothing" serialized="true" />
+    <type fullname="General.Interface.PlayerViewManager/Timers" preserve="nothing" serialized="true" />
+    <type fullname="Match" preserve="nothing" serialized="true" />
+    <type fullname="MatchMapInfo" preserve="nothing" serialized="true" />
+    <type fullname="MatchTypeInfo" preserve="nothing" serialized="true" />
+    <type fullname="YG.InfoYG/AutoTranslateLangsSettings" preserve="nothing" serialized="true" />
+    <type fullname="YG.InfoYG/AutoTranslateLangsSettings/Fonts" preserve="nothing" serialized="true" />
+    <type fullname="YG.InfoYG/AutoTranslateLangsSettings/FontsSizeCorrect" preserve="nothing" serialized="true" />
+    <type fullname="YG.InfoYG/AutoTranslateLangsSettings/Languages" preserve="nothing" serialized="true" />
     <type fullname="CapturePointUIElement/Warning" preserve="nothing" serialized="true" />
     <type fullname="Game.Enemy.ArmIKHelper" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.BlueParticles" preserve="nothing" serialized="true" />
@@ -80,15 +137,8 @@
     <type fullname="General.GeneralFunc/HeroInfo" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/PointCaptureText" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/SoundInfo" preserve="nothing" serialized="true" />
-    <type fullname="General.Interface.Interface_ChoseCharacter/CharacterInfo" preserve="nothing" serialized="true" />
-    <type fullname="MatchMapInfo" preserve="nothing" serialized="true" />
-    <type fullname="MatchTypeInfo" preserve="nothing" serialized="true" />
     <type fullname="Online.Boot.BootstrapPlayer/Pants" preserve="nothing" serialized="true" />
     <type fullname="WeaponGroupConfig/WeaponList" preserve="nothing" serialized="true" />
-    <type fullname="YG.InfoYG/AutoTranslateLangsSettings" preserve="nothing" serialized="true" />
-    <type fullname="YG.InfoYG/AutoTranslateLangsSettings/Fonts" preserve="nothing" serialized="true" />
-    <type fullname="YG.InfoYG/AutoTranslateLangsSettings/FontsSizeCorrect" preserve="nothing" serialized="true" />
-    <type fullname="YG.InfoYG/AutoTranslateLangsSettings/Languages" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="RootMotion.FinalIK.ArmIK" preserve="all" />
@@ -147,14 +197,24 @@
     <type fullname="FishNet.Serializing.TransformPackingData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="MasterServerToolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MasterServerToolkit.Bridges.AuthBehaviour" preserve="all" />
     <type fullname="MasterServerToolkit.Bridges.FishNetworking.RoomClientManager" preserve="all" />
     <type fullname="MasterServerToolkit.Bridges.FishNetworking.RoomNetworkManager" preserve="all" />
+    <type fullname="MasterServerToolkit.Bridges.MatchmakingBehaviour" preserve="all" />
     <type fullname="MasterServerToolkit.MasterServer.ClientToMasterConnector" preserve="all" />
     <type fullname="MasterServerToolkit.MasterServer.RoomServerManager" preserve="all" />
     <type fullname="MasterServerToolkit.MasterServer.RoomEvent" preserve="nothing" serialized="true" />
     <type fullname="MasterServerToolkit.MasterServer.RoomPlayerEvent" preserve="nothing" serialized="true" />
     <type fullname="MasterServerToolkit.MasterServer.RoomRegisteredEvent" preserve="nothing" serialized="true" />
     <type fullname="MasterServerToolkit.Utils.HelpBox" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SimpleInput.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SimpleInputNamespace.ButtonInputUI" preserve="all" />
+    <type fullname="SimpleInputNamespace.Joystick" preserve="all" />
+    <type fullname="SimpleInputNamespace.SimpleInputMultiDragListener" preserve="all" />
+    <type fullname="SimpleInputNamespace.Touchpad" preserve="all" />
+    <type fullname="SimpleInput/AxisInput" preserve="nothing" serialized="true" />
+    <type fullname="SimpleInput/ButtonInput" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -203,9 +263,12 @@
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
@@ -225,8 +288,8 @@
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
@@ -247,17 +310,32 @@
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
