@@ -5,6 +5,7 @@
     <type fullname="Door" preserve="all" />
     <type fullname="EffectData" preserve="all" />
     <type fullname="EpicToonFX.ETFXPitchRandomizer" preserve="all" />
+    <type fullname="FishNet.Managing.Scened.AddressableSceneProcessor" preserve="all" />
     <type fullname="Game.Enemy.Effects.EffectHandler" preserve="all" />
     <type fullname="Game.Enemy.Enemy" preserve="all" />
     <type fullname="Game.Enemy.StateHandler" preserve="all" />
@@ -70,7 +71,6 @@
     <type fullname="General.ObjectPool" preserve="all" />
     <type fullname="General.ObjectPoolReturnParticle" preserve="all" />
     <type fullname="HeroConfig" preserve="all" />
-    <type fullname="Interface_BootLoad" preserve="all" />
     <type fullname="Interface_MobileInput_WeaponView" preserve="all" />
     <type fullname="Interface_Mode_CaptureThePoint" preserve="all" />
     <type fullname="Interface_Mode_KingOfTheHill" preserve="all" />
@@ -100,6 +100,9 @@
     <type fullname="WeaponParticleConfig" preserve="all" />
     <type fullname="WeaponViewCollector" preserve="all" />
     <type fullname="YG.LanguageLegacy.LanguageYG" preserve="all" />
+    <type fullname="FishNet.Managing.Scened.AddressableSceneProcessor/SceneReference" preserve="nothing" serialized="true" />
+    <type fullname="Game.Enemy.ArmIKHelper" preserve="nothing" serialized="true" />
+    <type fullname="Game.Weapons.OverlapSettings" preserve="nothing" serialized="true" />
     <type fullname="General.Interface.Interface_ChoseCharacter/CharacterInfo" preserve="nothing" serialized="true" />
     <type fullname="General.Interface.Interface_ChoseCharacter/HeroChoose" preserve="nothing" serialized="true" />
     <type fullname="General.Interface.Interface_ChoseCharacter/HeroChoose/ImageWeaponView" preserve="nothing" serialized="true" />
@@ -118,26 +121,24 @@
     <type fullname="Match" preserve="nothing" serialized="true" />
     <type fullname="MatchMapInfo" preserve="nothing" serialized="true" />
     <type fullname="MatchTypeInfo" preserve="nothing" serialized="true" />
+    <type fullname="Online.Boot.BootstrapPlayer/Pants" preserve="nothing" serialized="true" />
     <type fullname="YG.InfoYG/AutoTranslateLangsSettings" preserve="nothing" serialized="true" />
     <type fullname="YG.InfoYG/AutoTranslateLangsSettings/Fonts" preserve="nothing" serialized="true" />
     <type fullname="YG.InfoYG/AutoTranslateLangsSettings/FontsSizeCorrect" preserve="nothing" serialized="true" />
     <type fullname="YG.InfoYG/AutoTranslateLangsSettings/Languages" preserve="nothing" serialized="true" />
     <type fullname="CapturePointUIElement/Warning" preserve="nothing" serialized="true" />
-    <type fullname="Game.Enemy.ArmIKHelper" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.BlueParticles" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.GameLoopManager/MapList" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.LocationCollector/BlockingWall" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.LocationCollector/LocationSpawnPoint" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.NeutralParticles" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.RedParticles" preserve="nothing" serialized="true" />
-    <type fullname="Game.Weapons.OverlapSettings" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/Constants" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/Constants/EffectDataList" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/Constants/Sprites" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/HeroInfo" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/PointCaptureText" preserve="nothing" serialized="true" />
     <type fullname="General.GeneralFunc/SoundInfo" preserve="nothing" serialized="true" />
-    <type fullname="Online.Boot.BootstrapPlayer/Pants" preserve="nothing" serialized="true" />
     <type fullname="WeaponGroupConfig/WeaponList" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -177,6 +178,7 @@
     <type fullname="FishNet.Managing.Logging.LevelLoggingConfiguration" preserve="all" />
     <type fullname="FishNet.Managing.NetworkManager" preserve="all" />
     <type fullname="FishNet.Managing.Object.DefaultPrefabObjects" preserve="all" />
+    <type fullname="FishNet.Managing.Scened.SceneManager" preserve="all" />
     <type fullname="FishNet.Managing.Server.ServerManager" preserve="all" />
     <type fullname="FishNet.Managing.Timing.TimeManager" preserve="all" />
     <type fullname="FishNet.Managing.Transporting.TransportManager" preserve="all" />
@@ -191,10 +193,10 @@
     <type fullname="FishNet.Object.Synchronizing.SyncVar`1[General.TeamType]" preserve="nothing" serialized="true" />
     <type fullname="FishNet.Object.Synchronizing.SyncVar`1[System.Boolean]" preserve="nothing" serialized="true" />
     <type fullname="FishNet.Object.Synchronizing.SyncVar`1[System.Int32]" preserve="nothing" serialized="true" />
-    <type fullname="FishNet.Object.Synchronizing.SyncVar`1[System.Single]" preserve="nothing" serialized="true" />
     <type fullname="FishNet.Object.Synchronizing.SyncVar`1[System.String]" preserve="nothing" serialized="true" />
     <type fullname="FishNet.Object.TransformProperties" preserve="nothing" serialized="true" />
     <type fullname="FishNet.Serializing.TransformPackingData" preserve="nothing" serialized="true" />
+    <type fullname="FishNet.Object.Synchronizing.SyncVar`1[System.Single]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="MasterServerToolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MasterServerToolkit.Bridges.AuthBehaviour" preserve="all" />
@@ -218,6 +220,7 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.11.2.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
@@ -288,8 +291,8 @@
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
