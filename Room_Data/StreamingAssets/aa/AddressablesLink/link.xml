@@ -1,6 +1,5 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="BlockingWall" preserve="all" />
     <type fullname="CapturePointUIElement" preserve="all" />
     <type fullname="CharacterSoundEffects" preserve="all" />
     <type fullname="Door" preserve="all" />
@@ -14,13 +13,11 @@
     <type fullname="Game.Items.PickupItem" preserve="all" />
     <type fullname="Game.Items.TriggerInvoker" preserve="all" />
     <type fullname="Game.Loop.CapturePoint" preserve="all" />
-    <type fullname="Game.Loop.DeathmatchManager" preserve="all" />
     <type fullname="Game.Loop.GameDataManager" preserve="all" />
     <type fullname="Game.Loop.GameLoop_Timer" preserve="all" />
     <type fullname="Game.Loop.GameLoopManager" preserve="all" />
     <type fullname="Game.Loop.KingOfTheHillManager" preserve="all" />
     <type fullname="Game.Loop.LocationCollector" preserve="all" />
-    <type fullname="Game.Loop.LocationData" preserve="all" />
     <type fullname="Game.Loop.MultiCaptureManager" preserve="all" />
     <type fullname="Game.Loop.TriggerPlaceBase" preserve="all" />
     <type fullname="Game.Weapons.Melee.WeaponMelee" preserve="all" />
@@ -98,7 +95,6 @@
     <type fullname="OrbitalCamera" preserve="all" />
     <type fullname="PrefabGizmoDrawer" preserve="all" />
     <type fullname="PromoCodeManager" preserve="all" />
-    <type fullname="SpawnPoint" preserve="all" />
     <type fullname="TriggerEvent" preserve="all" />
     <type fullname="WeaponGroupConfig" preserve="all" />
     <type fullname="WeaponParticleConfig" preserve="all" />
@@ -129,10 +125,9 @@
     <type fullname="CapturePointUIElement/Warning" preserve="nothing" serialized="true" />
     <type fullname="Game.Enemy.ArmIKHelper" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.BlueParticles" preserve="nothing" serialized="true" />
-    <type fullname="Game.Loop.GameLoopManager/MapInfo" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.GameLoopManager/MapList" preserve="nothing" serialized="true" />
-    <type fullname="Game.Loop.LocationData/BlockingWallData" preserve="nothing" serialized="true" />
-    <type fullname="Game.Loop.LocationData/LocationSpawnPoint" preserve="nothing" serialized="true" />
+    <type fullname="Game.Loop.LocationCollector/BlockingWall" preserve="nothing" serialized="true" />
+    <type fullname="Game.Loop.LocationCollector/LocationSpawnPoint" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.NeutralParticles" preserve="nothing" serialized="true" />
     <type fullname="Game.Loop.RedParticles" preserve="nothing" serialized="true" />
     <type fullname="Game.Weapons.OverlapSettings" preserve="nothing" serialized="true" />
